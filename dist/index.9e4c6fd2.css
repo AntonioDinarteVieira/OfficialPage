@@ -8,9 +8,41 @@ a:hover {
   color: #c9c9c9;
 }
 
+#header {
+  z-index: 100;
+  background: -webkit-linear-gradient(-45deg, #101010, #191919);
+  width: 100%;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+#header, .container {
+  justify-content: space-between;
+  align-items: right;
+  display: flex;
+}
+
+.main-nav ul {
+  margin: 0;
+  padding: 10px;
+  list-style: none;
+}
+
+.main-nav ul li {
+  float: left;
+  margin-left: 40px;
+  font-size: x-large;
+}
+
 .homepage-child {
   background: -webkit-linear-gradient(-45deg, #101010, #191919);
-  background-color: linear-gradient(-45deg, #101010, #191919);
   width: 100%;
   height: 7350px;
   margin: 0;
@@ -30,12 +62,11 @@ a:hover {
 }
 
 .logo-05-2-icon {
-  object-fit: cover;
   width: 62px;
   height: 64.05px;
-  position: absolute;
-  top: 50px;
-  left: 46px;
+  position: relative;
+  top: 10px;
+  left: 0;
 }
 
 .vieira {
@@ -66,27 +97,26 @@ a:hover {
 }
 
 .design, .e-mail-marketing, .seo {
-  -webkit-text-stroke: 2px #d9d9d914;
-  justify-content: center;
+  justify-content: right;
   width: 725px;
   height: 122px;
   font-weight: 500;
   top: 209px;
-  left: 694px;
+  left: 500px;
 }
 
 .e-mail-marketing, .seo {
   width: 462px;
   font-size: 96px;
   top: 324px;
-  left: 905px;
+  left: 800px;
 }
 
 .e-mail-marketing {
-  width: 1390px;
+  width: 600px;
   font-size: 56px;
   top: 397px;
-  left: 322px;
+  left: 650px;
 }
 
 .copywriting {
@@ -94,12 +124,11 @@ a:hover {
   font-size: 103px;
   font-weight: 500;
   top: 98px;
-  left: 648px;
+  left: 600px;
 }
 
 .copywriting, .googlemeta-ads, .public-relations, .social-media {
-  -webkit-text-stroke: 2px #e30f0f14;
-  justify-content: center;
+  justify-content: right;
   align-items: center;
   height: 122px;
   display: flex;
@@ -111,22 +140,22 @@ a:hover {
   width: 719px;
   font-weight: 500;
   top: 476px;
-  left: 682px;
+  left: 540px;
 }
 
 .googlemeta-ads, .social-media {
-  font-size: 135px;
+  font-size: 120px;
   font-family: var(--font-futura-bold);
-  width: 1299px;
-  top: 586px;
-  left: 0;
+  width: 1200px;
+  top: 580px;
+  left: 50px;
 }
 
 .social-media {
-  width: 1345px;
-  font-size: 198px;
+  width: 1250px;
+  font-size: 170px;
   top: 0;
-  left: 70px;
+  left: 0;
 }
 
 .word-play-hero-section {
@@ -134,9 +163,10 @@ a:hover {
   font-family: var(--font-futura-md-bt);
   color: #c9c9c9;
   opacity: .05;
-  width: 1712px;
+  width: 90%;
   height: 708px;
-  position: relative;
+  margin: 0 auto;
+  position: absolute;
   top: 103px;
   left: 658px;
 }
@@ -162,7 +192,7 @@ a:hover {
 .st-section-item {
   width: 590px;
   height: 148px;
-  position: relative;
+  position: absolute;
   top: 413px;
   left: 424px;
 }
@@ -190,7 +220,7 @@ a:hover {
   position: absolute;
   top: 413px;
   left: 440px;
-  overflow: auto;
+  overflow: scroll;
 }
 
 .about1 {
@@ -276,7 +306,7 @@ a:hover {
   font-size: var(--font-size-14xl);
   color: var(--accent-color);
   width: 1920px;
-  height: 1001px;
+  height: 1000px;
   position: absolute;
   top: 0;
   left: 0;
@@ -1505,6 +1535,7 @@ a:hover {
   height: 7350px;
   text-decoration: none;
   position: relative;
+  top: 0;
 }
 
 /*# sourceMappingURL=index.9e4c6fd2.css.map */

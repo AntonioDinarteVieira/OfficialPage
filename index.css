@@ -6,13 +6,44 @@ a{
 a:hover{
   color: #c9c9c9;
 }
+#header{
+  background: -webkit-linear-gradient(-45deg, #101010, #191919);
+  padding: 10px;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 100
+  }
+.container{
+  width: 90%;
+  margin: 0 auto;
+}
+#header, .container{
+  display: flex;
+  justify-content: space-between;
+  align-items: right;
+}
+.main-nav{}
+.main-nav ul{
+  padding: 10;
+  margin: 0;
+  list-style: none;
+}
+.main-nav ul li{
+  float: left;
+  margin-left: 40px;
+  font-size: x-large;
+}
+.main-nav ul li a{
+
+}
 .homepage-child {
   margin: 0;
   padding: 0;
-  background: -webkit-linear-gradient(-45deg, #101010, #191919);
-  background-color: linear-gradient(-45deg, #101010, #191919);
   width: 100%;
   height: 7350px;
+  background: -webkit-linear-gradient(-45deg, #101010, #191919);
 }
 .what-im-going {
   position: absolute;
@@ -26,12 +57,11 @@ a:hover{
   height: 91.94px;
 }
 .logo-05-2-icon {
-  position: absolute;
-  top: 50px;
-  left: 46px;
+  position: relative;
+  top: 10px;
+  left: 0px;
   width: 62px;
   height: 64.05px;
-  object-fit: cover;
 }
 .vieira {
   font-family: var(--font-futura-bk-bt);
@@ -63,29 +93,28 @@ a:hover{
 .e-mail-marketing,
 .seo {
   top: 209px;
-  left: 694px;
+  left: 500;
   font-weight: 500;
-  justify-content: center;
+  justify-content: right;
   width: 725px;
   height: 122px;
-  -webkit-text-stroke: 2px rgba(217, 217, 217, 0.08);
 }
 .e-mail-marketing,
 .seo {
   top: 324px;
-  left: 905px;
+  left: 800px;
   font-size: 96px;
   width: 462px;
 }
 .e-mail-marketing {
   top: 397px;
-  left: 322px;
+  left: 650px;
   font-size: 56px;
-  width: 1390px;
+  width: 600px;
 }
 .copywriting {
   top: 98px;
-  left: 648px;
+  left: 600px;
   font-size: 103px;
   font-weight: 500;
   width: 658px;
@@ -97,41 +126,41 @@ a:hover{
   position: absolute;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: right;
   height: 122px;
-  -webkit-text-stroke: 2px rgba(227, 15, 15, 0.08);
 }
 .public-relations {
   top: 476px;
-  left: 682px;
+  left: 540px;
   font-size: var(--font-size-75xl);
   font-weight: 500;
   width: 719px;
 }
 .googlemeta-ads,
 .social-media {
-  top: 586px;
-  left: 0;
-  font-size: 135px;
+  top: 580px;
+  left: 50;
+  font-size: 120px;
   font-family: var(--font-futura-bold);
-  width: 1299px;
+  width: 1200px;
 }
 .social-media {
   top: 0;
-  left: 70px;
-  font-size: 198px;
-  width: 1345px;
+  left: 0px;
+  font-size: 170px;
+  width: 1250px;
 }
 .word-play-hero-section {
-  position: relative;
+  position: absolute;
   top: 103px;
   left: 658px;
-  width: 1712px;
+  width: 90%;
   height: 708px;
   font-size: 122px;
   font-family: var(--font-futura-md-bt);
   color: #c9c9c9;
   opacity: 5%;
+  margin: 0 auto;
 }
 .logos-icon, .st-section-child {
   position: absolute;
@@ -149,7 +178,7 @@ a:hover{
   object-fit: cover;
 }
 .st-section-item {
-  position: relative;
+  position: absolute;
   top: 413px;
   left: 424px;
   width: 590px;
@@ -175,7 +204,7 @@ a:hover{
   left: 440px;
   width: 576px;
   height: 148px;
-  overflow: auto;
+  overflow: scroll;
   font-size: var(--font-size-41xl);
   font-family: var(--font-futura-md-bt);
 }
@@ -258,10 +287,10 @@ a:hover{
   height: 33px;
 }
 .st-section {
-  top: 0;
+  top: 0px;
   left: 0;
   width: 1920px;
-  height: 1001px;
+  height: 1000px;
   overflow: hidden;
   font-size: var(--font-size-14xl);
   color: var(--accent-color);
@@ -1474,6 +1503,7 @@ a:hover{
   font-family: var(--font-futura-bold);
 }
 .homepage {
+  top: 0px;
   text-decoration: none;
   position: relative;
   width: 100%;
