@@ -1,10 +1,16 @@
+a{  
+  text-decoration: none;
+  color: #ffcc36;
+  font-family: var(--font-futura-hv-bt);
+}
+a:hover{
+  color: #c9c9c9;
+}
 .homepage-child {
-  position: relative;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: var(--color-gray);
+  margin: 0;
+  padding: 0;
+  background: -webkit-linear-gradient(-45deg, #101010, #191919);
+  background-color: linear-gradient(-45deg, #101010, #191919);
   width: 100%;
   height: 7350px;
 }
@@ -21,7 +27,7 @@
 }
 .logo-05-2-icon {
   position: absolute;
-  top: 39px;
+  top: 50px;
   left: 46px;
   width: 62px;
   height: 64.05px;
@@ -44,7 +50,7 @@
   align-items: center;
 }
 .dinartevieira {
-  top: 50.36px;
+  top: 60px;
   left: 122px;
   font-size: var(--font-size-15xl);
   color: var(--color-white);
@@ -143,7 +149,7 @@
   object-fit: cover;
 }
 .st-section-item {
-  position: absolute;
+  position: relative;
   top: 413px;
   left: 424px;
   width: 590px;
@@ -174,7 +180,8 @@
   font-family: var(--font-futura-md-bt);
 }
 .about1 {
-  position: absolute;
+  position: relative;
+  text-decoration: none;
   width: 100%;
   top: 0;
   left: 0;
@@ -182,37 +189,49 @@
   align-items: center;
   justify-content: center;
 }
-.about, .portfolio, .services {
+.about{
   position: absolute;
-  top: 47.01px;
-  left: 1015.91px;
+  text-decoration: none;
+  top: 50px;
+  left: 900px;
   width: 128px;
   height: 33px;
 }
-.portfolio, .services {
-  left: 1177.13px;
-  width: 163px;
+.portfolio{
+  position: absolute;
+  text-decoration: none;
+  top: 50px;
+  left: 1300px;
+  width: 128px;
+  height: 33px;
+  font-size: xx-large;
 }
-.portfolio {
-  left: 1372.8px;
-  width: 161px;
+.services {
+  position: absolute;
+  top: 50px;
+  left: 1100px;
+  width: 128px;
+  height: 50px;
+  font-size: xx-large;
 }
 .trends {
-  width: 147.76%;
-  top: 0;
-  left: -23.88%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  position: absolute;
+  top: 50px;
+  left: 1400px;
+  width: 128px;
+  height: 50px;
+  font-size: xx-large;
 }
-.blog, .contact1, .trends {
+.contact1{
   position: absolute;
 }
 .blog {
-  top: 47.01px;
-  left: 1567.2px;
-  width: 127px;
-  height: 33px;
+  position: absolute;
+  top: 50px;
+  left: 1500px;
+  width: 128px;
+  height: 50px;
+  font-size: xx-large;
 }
 .contact1 {
   width: 135.4%;
@@ -222,7 +241,15 @@
   align-items: center;
   justify-content: center;
 }
-.contact,
+.contact{
+  position: absolute;
+  top: 50px;
+  left: 1700px;
+  width: 128px;
+  height: 50px;
+  font-size: xx-large;
+}
+
 .st-section {
   position: absolute;
   top: 47.01px;
@@ -270,6 +297,7 @@
   left: 0;
   width: 343px;
   height: 56.67px;
+  color: #d9d9d9;
 }
 .div,
 .div1,
@@ -304,7 +332,9 @@
   left: 1368.64px;
   display: inline-block;
   width: 337.92px;
-  height: 99.84px;
+  height: 100px;
+  color: #d9d9d9;
+  font-family: var(--font-proxima-nova);
 }
 .div3 {
   top: 754.6px;
@@ -361,6 +391,7 @@
   display: inline-block;
   width: 260px;
   height: 56.67px;
+  color: #d9d9d9;
 }
 .empathy {
   left: 863px;
@@ -380,6 +411,8 @@
   width: 569px;
   height: 603.01px;
   font-size: var(--font-size-10xl);
+  color: #d9d9d9;
+  font-family: var(--font-proxima-nova);
 }
 .creativity,
 .resilience {
@@ -389,6 +422,7 @@
   display: inline-block;
   width: 206px;
   height: 56.67px;
+  color: #d9d9d9;
 }
 .resilience {
   left: 1520px;
@@ -447,8 +481,27 @@
   height: 1075.96px;
   text-align: right;
   font-size: var(--font-size-31xl);
+  font-family: var(--font-proxima-nova);
 }
-.services-to-ignite,
+#nd-section{
+  position: absolute;
+  top: 1018.04px;
+  left: 88px;
+  width: 1743px;
+  height: 1075.96px;
+}
+.services-to-ignite{
+  position: absolute;
+  top: 26px;
+  right: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1485px;
+  height: 136px;
+  color: #d9d9d9;
+}
+
 .what-are-you {
   position: absolute;
   top: 26px;
@@ -478,6 +531,7 @@
   left: 106px;
   font-size: var(--font-size-57xl);
   font-weight: 500;
+  justify-content: center;
 }
 .im-gonna-handle {
   position: absolute;
@@ -487,6 +541,7 @@
   font-family: var(--font-proxima-nova);
   display: inline-block;
   width: 430px;
+  justify-content: center;
 }
 .design2 {
   position: absolute;
@@ -652,6 +707,7 @@
   width: 3886px;
   height: 750px;
   overflow: hidden;
+  color: #d9d9d9;
 }
 .servios-wrapper {
   position: absolute;
@@ -1120,6 +1176,7 @@
   left: 58px;
   width: 342px;
   height: 127px;
+  color: #d9d9d9;
 }
 .antoniodinartevieiragmailcom {
   position: absolute;
@@ -1135,6 +1192,7 @@
   left: 58px;
   width: 559px;
   height: 127px;
+  color: #d9d9d9;
 }
 .adress-parent {
   top: 894px;
@@ -1175,6 +1233,7 @@
   font-size: 28px;
   font-weight: 500;
   text-align: center;
+  color: #c9c9c9;
 }
 .lets-do-something {
   position: absolute;
@@ -1396,7 +1455,7 @@
   height: 81px;
 }
 .top {
-  position: absolute;
+  position: relative;
   height: 1.92%;
   width: 6.3%;
   top: 11.06%;

@@ -1,9 +1,20 @@
+a {
+  color: #ffcc36;
+  font-family: var(--font-futura-hv-bt);
+  text-decoration: none;
+}
+
+a:hover {
+  color: #c9c9c9;
+}
+
 .homepage-child {
-  background-color: var(--color-gray);
+  background: -webkit-linear-gradient(-45deg, #101010, #191919);
+  background-color: linear-gradient(-45deg, #101010, #191919);
   width: 100%;
   height: 7350px;
-  position: relative;
-  inset: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .what-im-going {
@@ -23,7 +34,7 @@
   width: 62px;
   height: 64.05px;
   position: absolute;
-  top: 39px;
+  top: 50px;
   left: 46px;
 }
 
@@ -50,7 +61,7 @@
   font-family: var(--font-futura-bold);
   width: 235px;
   height: 42.35px;
-  top: 50.36px;
+  top: 60px;
   left: 122px;
 }
 
@@ -151,7 +162,7 @@
 .st-section-item {
   width: 590px;
   height: 148px;
-  position: absolute;
+  position: relative;
   top: 413px;
   left: 424px;
 }
@@ -186,48 +197,61 @@
   justify-content: center;
   align-items: center;
   width: 100%;
+  text-decoration: none;
   display: flex;
-  position: absolute;
+  position: relative;
   top: 0;
   left: 0;
 }
 
-.about, .portfolio, .services {
+.about {
   width: 128px;
   height: 33px;
+  text-decoration: none;
   position: absolute;
-  top: 47.01px;
-  left: 1015.91px;
-}
-
-.portfolio, .services {
-  width: 163px;
-  left: 1177.13px;
+  top: 50px;
+  left: 900px;
 }
 
 .portfolio {
-  width: 161px;
-  left: 1372.8px;
+  width: 128px;
+  height: 33px;
+  font-size: xx-large;
+  text-decoration: none;
+  position: absolute;
+  top: 50px;
+  left: 1300px;
+}
+
+.services {
+  width: 128px;
+  height: 50px;
+  font-size: xx-large;
+  position: absolute;
+  top: 50px;
+  left: 1100px;
 }
 
 .trends {
-  justify-content: center;
-  align-items: center;
-  width: 147.76%;
-  display: flex;
-  top: 0;
-  left: -23.88%;
+  width: 128px;
+  height: 50px;
+  font-size: xx-large;
+  position: absolute;
+  top: 50px;
+  left: 1400px;
 }
 
-.blog, .contact1, .trends {
+.contact1 {
   position: absolute;
 }
 
 .blog {
-  width: 127px;
-  height: 33px;
-  top: 47.01px;
-  left: 1567.2px;
+  width: 128px;
+  height: 50px;
+  font-size: xx-large;
+  position: absolute;
+  top: 50px;
+  left: 1500px;
 }
 
 .contact1 {
@@ -239,12 +263,13 @@
   left: -17.7%;
 }
 
-.contact, .st-section {
-  width: 153px;
-  height: 33px;
+.contact {
+  width: 128px;
+  height: 50px;
+  font-size: xx-large;
   position: absolute;
-  top: 47.01px;
-  left: 1727.29px;
+  top: 50px;
+  left: 1700px;
 }
 
 .st-section {
@@ -252,6 +277,7 @@
   color: var(--accent-color);
   width: 1920px;
   height: 1001px;
+  position: absolute;
   top: 0;
   left: 0;
   overflow: hidden;
@@ -285,6 +311,7 @@
 }
 
 .communication {
+  color: #d9d9d9;
   width: 343px;
   height: 56.67px;
   top: 1019.29px;
@@ -317,8 +344,10 @@
 }
 
 .clients, .coffees, .div3, .meeting, .projects {
+  color: #d9d9d9;
+  font-family: var(--font-proxima-nova);
   width: 337.92px;
-  height: 99.84px;
+  height: 100px;
   display: inline-block;
   position: absolute;
   left: 1368.64px;
@@ -369,6 +398,7 @@
 }
 
 .adaptability, .empathy {
+  color: #d9d9d9;
   width: 260px;
   height: 56.67px;
   display: inline-block;
@@ -391,6 +421,8 @@
   text-align: left;
   line-height: 150.5%;
   font-size: var(--font-size-10xl);
+  color: #d9d9d9;
+  font-family: var(--font-proxima-nova);
   width: 569px;
   height: 603.01px;
   display: inline-block;
@@ -400,6 +432,7 @@
 }
 
 .creativity, .resilience {
+  color: #d9d9d9;
   width: 206px;
   height: 56.67px;
   display: inline-block;
@@ -463,6 +496,7 @@
 .nd-section {
   text-align: right;
   font-size: var(--font-size-31xl);
+  font-family: var(--font-proxima-nova);
   width: 1743px;
   height: 1075.96px;
   position: absolute;
@@ -470,7 +504,16 @@
   left: 88px;
 }
 
-.services-to-ignite, .what-are-you {
+#nd-section {
+  width: 1743px;
+  height: 1075.96px;
+  position: absolute;
+  top: 1018.04px;
+  left: 88px;
+}
+
+.services-to-ignite {
+  color: #d9d9d9;
   justify-content: center;
   align-items: center;
   width: 1485px;
@@ -486,8 +529,12 @@
   font-weight: 800;
   font-family: var(--font-futura-hv-bt);
   color: var(--color-goldenrod);
+  justify-content: center;
+  align-items: center;
   width: 328px;
   height: 48px;
+  display: flex;
+  position: absolute;
   top: 151px;
   right: 94px;
 }
@@ -498,6 +545,7 @@
 
 .social-media3 {
   font-size: var(--font-size-57xl);
+  justify-content: center;
   font-weight: 500;
   position: absolute;
   top: 211px;
@@ -507,6 +555,7 @@
 .im-gonna-handle {
   line-height: 123%;
   font-family: var(--font-proxima-nova);
+  justify-content: center;
   width: 430px;
   display: inline-block;
   position: absolute;
@@ -682,6 +731,7 @@
 }
 
 .servios {
+  color: #d9d9d9;
   width: 3886px;
   height: 750px;
   position: absolute;
@@ -1124,6 +1174,7 @@
 }
 
 .call-me-parent {
+  color: #d9d9d9;
   width: 342px;
   height: 127px;
   position: absolute;
@@ -1140,6 +1191,7 @@
 }
 
 .adress-parent, .e-mail-parent {
+  color: #d9d9d9;
   width: 559px;
   height: 127px;
   position: absolute;
@@ -1182,6 +1234,7 @@
 
 .dinarte-vieira-all {
   text-align: center;
+  color: #c9c9c9;
   font-size: 28px;
   font-weight: 500;
   position: absolute;
@@ -1438,7 +1491,7 @@
   width: 6.3%;
   height: 1.92%;
   display: flex;
-  position: absolute;
+  position: relative;
   inset: 11.06% 1.59% 87.02% 92.11%;
   overflow-y: auto;
 }
