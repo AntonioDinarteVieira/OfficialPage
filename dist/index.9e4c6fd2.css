@@ -29,6 +29,10 @@ a:hover {
   display: flex;
 }
 
+.main-nav {
+  justify-content: center;
+}
+
 .main-nav span {
   transition: all .2s ease-out;
 }
@@ -43,6 +47,10 @@ a:hover {
   float: left;
   margin-left: 40px;
   font-size: x-large;
+}
+
+.main-nav ul li a {
+  justify-content: center;
 }
 
 .homepage-child {

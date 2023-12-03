@@ -24,7 +24,9 @@ a:hover{
   justify-content: space-between;
   align-items: right;
 }
-.main-nav{}
+.main-nav{
+  justify-content: center;
+}
 
 .main-nav span{
   transition: 0.2s ease-out;
@@ -40,6 +42,7 @@ a:hover{
   font-size: x-large;
 }
 .main-nav ul li a{
+  justify-content: center;
 
 }
 .homepage-child {
@@ -187,7 +190,7 @@ a:hover{
   overflow-x: scroll;
   object-fit: none;
 }
-div.scroll-container {;
+div.scroll-container {
   img{ 
 width: 11%;
 margin-right: 50px;
