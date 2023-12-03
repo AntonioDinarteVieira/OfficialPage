@@ -30,7 +30,8 @@ a:hover {
 }
 
 .main-nav {
-  justify-content: center;
+  text-align: center;
+  align-items: center;
 }
 
 .main-nav span {
@@ -38,6 +39,8 @@ a:hover {
 }
 
 .main-nav ul {
+  text-align: center;
+  align-items: center;
   margin: 0;
   padding: 15px;
   list-style: none;
@@ -112,6 +115,7 @@ a:hover {
   justify-content: right;
   width: 725px;
   height: 122px;
+  margin: auto;
   font-weight: 500;
   top: 209px;
   left: 500px;
@@ -422,11 +426,11 @@ div.scroll-container img {
 }
 
 .clients, .coffees, .meeting, .projects {
-  top: 860.84px;
+  top: 870px;
 }
 
 .clients, .meeting, .projects {
-  top: 633px;
+  top: 640px;
 }
 
 .clients, .projects {
@@ -627,7 +631,7 @@ div.scroll-container img {
 .design2 {
   font-size: var(--font-size-57xl);
   font-weight: 500;
-  position: absolute;
+  position: relative;
   top: 256px;
   left: 628px;
 }
@@ -822,7 +826,7 @@ div.scroll-container img {
   max-width: 100%;
   height: .66%;
   max-height: 100%;
-  inset: 13.66% 6.29% 85.69% 63.13%;
+  inset: 13.66% 6.29% 85.69% 67.13%;
 }
 
 .rd-section {
@@ -842,8 +846,8 @@ div.scroll-container img {
   font-weight: 800;
   display: flex;
   position: absolute;
-  top: 181px;
-  left: 55px;
+  top: 170px;
+  left: 30px;
 }
 
 .layer-1-icon {
@@ -1163,7 +1167,7 @@ div.scroll-container img {
   max-width: 100%;
   height: .47%;
   max-height: 100%;
-  inset: 9.28% 60.22% 90.24% 3.81%;
+  inset: 9.5% 60.22% 90.24% 3.81%;
 }
 
 .th-section {
@@ -1193,7 +1197,7 @@ div.scroll-container img {
   height: .88%;
   max-height: 100%;
   position: absolute;
-  inset: 17.11% 6.51% 82.02% 40.26%;
+  inset: 18.11% 6.51% 82.02% 40.26%;
   overflow: hidden;
 }
 
@@ -1314,7 +1318,7 @@ div.scroll-container img {
   display: flex;
   position: absolute;
   top: 432px;
-  left: 0;
+  left: 20px;
 }
 
 .type-a-question {

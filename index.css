@@ -25,16 +25,19 @@ a:hover{
   align-items: right;
 }
 .main-nav{
-  justify-content: center;
+  text-align: center;
+  align-items: center;
 }
 
 .main-nav span{
   transition: 0.2s ease-out;
 }
 .main-nav ul{
+  text-align: center;
   padding: 15;
   margin: 0;
   list-style: none;
+  align-items: center;
 }
 .main-nav ul li{
   float: left;
@@ -105,6 +108,7 @@ a:hover{
   justify-content: right;
   width: 725px;
   height: 122px;
+  margin: auto;
 }
 .e-mail-marketing,
 .seo {
@@ -399,12 +403,12 @@ margin-right: 50px;
 .coffees,
 .meeting,
 .projects {
-  top: 860.84px;
+  top: 870px;
 }
 .clients,
 .meeting,
 .projects {
-  top: 633px;
+  top: 640px;
 }
 .clients,
 .projects {
@@ -597,7 +601,7 @@ margin-right: 50px;
   justify-content: center;
 }
 .design2 {
-  position: absolute;
+  position: relative;
   top: 256px;
   left: 628px;
   font-size: var(--font-size-57xl);
@@ -783,7 +787,7 @@ margin-right: 50px;
   top: 13.66%;
   right: 6.29%;
   bottom: 85.69%;
-  left: 63.13%;
+  left: 67.13%;
   max-width: 100%;
   max-height: 100%;
 }
@@ -797,8 +801,8 @@ margin-right: 50px;
 }
 .making-friends-along {
   position: absolute;
-  top: 181px;
-  left: 55px;
+  top: 170px;
+  left: 30px;
   font-weight: 800;
   display: flex;
   align-items: center;
@@ -1152,7 +1156,7 @@ margin-right: 50px;
 .vector-icon3 {
   height: 0.47%;
   width: 35.97%;
-  top: 9.28%;
+  top: 9.5%;
   right: 60.22%;
   bottom: 90.24%;
   left: 3.81%;
@@ -1182,7 +1186,7 @@ margin-right: 50px;
   position: absolute;
   height: 0.88%;
   width: 53.23%;
-  top: 17.11%;
+  top: 18.11%;
   right: 6.51%;
   bottom: 82.02%;
   left: 40.26%;
@@ -1291,7 +1295,7 @@ margin-right: 50px;
 .lets-do-something {
   position: absolute;
   top: 432px;
-  left: 0;
+  left: 20;
   font-size: var(--font-size-6xl);
   font-weight: 800;
   font-family: var(--font-futura-hv-bt);
