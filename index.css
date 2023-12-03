@@ -25,8 +25,12 @@ a:hover{
   align-items: right;
 }
 .main-nav{}
+
+.main-nav span{
+  transition: 0.2s ease-out;
+}
 .main-nav ul{
-  padding: 10;
+  padding: 15;
   margin: 0;
   list-style: none;
 }
@@ -162,11 +166,17 @@ a:hover{
   opacity: 5%;
   margin: 0 auto;
 }
-.logos-icon, .st-section-child {
+.st-section-child {
   position: absolute;
-  top: 781px;
+  top: 800px;
   left: 0;
   width: 1920px;
+}
+.logos-icon{
+  position: absolute;
+  left: 0%;
+  width: 100%;
+  height: 740px;
 }
 .st-section-child {
   background-color: var(--color-gainsboro-200);
@@ -174,8 +184,19 @@ a:hover{
 }
 .logos-icon {
   height: 209px;
+  overflow-x: scroll;
+  object-fit: none;
+}
+div.scroll-container {;
+  img{ 
+width: 11%;
+margin-right: 50px;
+  }
   overflow: auto;
-  object-fit: cover;
+  white-space: nowrap;
+  width: 100%;
+  margin: 0 auto;
+
 }
 .st-section-item {
   position: absolute;
@@ -734,7 +755,7 @@ a:hover{
   top: 100px;
   left: 85px;
   width: 3886px;
-  height: 750px;
+  height: 740px;
   overflow: hidden;
   color: #d9d9d9;
 }
@@ -1451,57 +1472,6 @@ a:hover{
   font-size: var(--font-size-45xl);
   font-family: var(--font-futura-md-bt);
 }
-.top-button-child {
-  position: absolute;
-  top: 0;
-  left: 0;
-  border-radius: 50%;
-  background: linear-gradient(180deg, #ff3, #191919 82.29%);
-  width: 81px;
-  height: 81px;
-}
-.top1 {
-  position: absolute;
-  top: 44.58px;
-  left: 13.19px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 54.63px;
-  height: 26.37px;
-}
-.top-button-item {
-  position: absolute;
-  top: 12.57px;
-  left: 22.4px;
-  width: 36.82px;
-  height: 26.35px;
-}
-.top-button {
-  position: relative;
-  box-shadow: 3px 3px 5px rgba(255, 179, 55, 0.15);
-  width: 81px;
-  height: 81px;
-}
-.top {
-  position: relative;
-  height: 1.92%;
-  width: 6.3%;
-  top: 11.06%;
-  right: 1.59%;
-  bottom: 87.02%;
-  left: 92.11%;
-  overflow-y: auto;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-end;
-  justify-content: flex-end;
-  padding: var(--padding-11xl) var(--padding-xl);
-  box-sizing: border-box;
-  font-size: var(--font-size-lgi);
-  color: var(--color-gainsboro-200);
-  font-family: var(--font-futura-bold);
-}
 .homepage {
   top: 0px;
   text-decoration: none;
@@ -1512,4 +1482,34 @@ a:hover{
   font-size: var(--font-size-6xl);
   color: var(--title-color);
   font-family: var(--font-proxima-nova);
+}
+html {
+	scroll-behavior: smooth;
+}
+
+.back-to-top {
+	position: fixed;
+	bottom: 2rem;
+	right: 2rem;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	background-color:#ffcc36;
+	border-radius: 0.5rem;
+	padding: 0.5rem;
+	text-decoration: none;
+	transition: 0.2s ease-out;
+}
+
+.back-to-top span {
+	color: #fff;
+	font-size: 3rem;
+	transition: 0.2s ease-out;
+}
+
+.back-to-top:hover {
+	background-color: #ffe634;
+}
+.back-to-top:hover span {
+	transform: translateY(-4px);
 }
