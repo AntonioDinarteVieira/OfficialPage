@@ -202,7 +202,7 @@ a:hover {
 
 div.scroll-container {
   white-space: nowrap;
-  width: 100%;
+  width: % ;
   margin: 0 auto;
   overflow: auto;
 }
